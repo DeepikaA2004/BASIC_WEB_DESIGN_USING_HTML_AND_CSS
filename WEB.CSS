@@ -1,0 +1,70 @@
+h1{
+  font-size:100px;
+  font-style:bold;
+  color: black;
+}
+.left card{
+ object-position:right;
+
+
+}.main{
+  flex:1;
+}
+.card-title{
+  font-size: larger;
+  font-style: italic;
+  display: inline;
+  text-align: center;
+}
+.card{
+  font-size:large;
+  font-style: normal;
+  font-display:initial;
+  width:50%;
+}
+.tile-image{
+float:left;
+height: 200px;
+margin-right: 50px;
+  
+
+}
+.card-title>p{
+  display: inline-block;
+  font-style: italic;
+
+}
+.left{
+  float: left;
+}
+.right{
+  float:right
+}
+footer{
+  text-align: right;
+  color:navy;
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
